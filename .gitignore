@@ -1,2 +1,4 @@
-MONGO_URI=your_mongodb_connection_string
-SESSION_SECRET=123lkawjg091u82378429
+
+/node_modules
+.env
+.DS_Store

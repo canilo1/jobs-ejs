@@ -1,0 +1,13 @@
+<h1>The Jobs EJS Application</h1>
+
+<% if (errors && errors.length) { %>
+  <% errors.forEach((err) => { %>
+    <div style="color: red;">Error: <%= err %></div>
+  <% }) %>
+<% } %>
+
+<% if (info && info.length) { %>
+  <% info.forEach((msg) => { %>
+    <div style="color: green;">Info: <%= msg %></div>
+  <% }) %>
+<% } %>
